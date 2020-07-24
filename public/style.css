@@ -1,0 +1,92 @@
+.div1{
+    position:absolute;
+    top:175px;
+    left:100px;
+    bottom:100px;
+    width:400px;
+    height:auto; 
+} 
+.articles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5rem 20rem 5rem;
+}
+.article-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 8rem;
+    width: 100%;
+}
+.article-img-wrapper{
+    width: 100%;
+    height: 100%;
+    background-color: #262626;
+    border-radius: 0.5rem;
+}
+.article-info{
+    position: absolute;
+    padding: 2rem;
+    text-shadow: 0 0.2rem 0.5rem rgba(0,0,0,0.4);
+    opacity: 1;
+    transition: all 0.3s;
+}
+.article-info h2{
+    font-family: 'Baloo Da 2',serif;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    font-weight: 300;
+    color:black;
+}
+.article-info p{
+    font-family: 'Baloo Da 2',serif;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    font-weight: 300;
+    color: black;
+    width: 80%;
+    margin-bottom: 2rem;
+    white-space: pre-wrap
+}
+.article-info button{
+    width: 10rem;
+    height: 3rem;
+    background-color: yellow;
+    border: none;
+    font-family: 'Baloo Da 2',serif;
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+    border-radius: .3rem;
+    color: #eee;
+    box-shadow: 0.1rem 0.8rem rgba(0,0,0,0.4);
+}
+.article{
+    width: 37rem;
+    height: 45rem;
+    box-shadow: 0.1rem 0.2rem rgba(0,0,0,0.4);
+    border-radius: 0.5rem;
+}
+.scroll-btn{
+    position: fixed;
+    right: 5rem;
+    bottom: 5rem;
+    width: 4.5rem;
+    height: 4.5rem;
+    background-color: #c29525;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #eee;
+    box-shadow: 0 0.1rem 0.6rem rgba(0,0,0,0.2);
+    border-radius: 0.3rem;
+}
+.footer{
+    width: 100%;
+    height: 15rem;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

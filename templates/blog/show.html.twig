@@ -1,0 +1,16 @@
+ {% extends "base.html.twig" %}
+
+{% block body %}
+     <article class="article-wrapper">
+        <div class="article">      
+            <div class="article-img-wrapper" data-tilt>
+                <img src="{{ article.image }}" alt="" >
+                <div class="article-info">
+                    <h2>{{ article.title }} </h2> 
+                    <p> {{ article.content }} </p>  
+                    <small class="text-muted">{{ article.createAt | date('d/m/y') }} <small>
+                </div>  
+            </div>
+        </div>
+    </article> 
+{% endblock %}
